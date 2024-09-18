@@ -3,8 +3,8 @@
 In order to contact me use [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
 
 Various profiles of mine
-* My duolingo profile is [here](https://www.duolingo.com/profile/mark.veltzer)
-* My udemy profile is [here](https://www.udemy.com/user/mark-veltzer)
+* [duolingo](https://www.duolingo.com/profile/mark.veltzer)
+* [udemy](https://www.udemy.com/user/mark-veltzer)
 * [keybr mark.veltzer+keybr@gmail.com](https://www.keybr.com/profile/t1z6z7j)
 * [keybr mark.veltzer@gmail.com](https://www.keybr.com/profile/01l958g)
 * [keybr veltzer@gnu.org](https://www.keybr.com/profile/m4dnhap)
