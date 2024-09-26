@@ -13,6 +13,9 @@ Various profiles of mine
 * [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
 * [nitrotype](https://www.nitrotype.com/racer/veltzer)
 
+Sites that I use that do not have proflies
+* [brilliant](https://brilliant.org)
+
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=veltzer)](https://github.com/anuraghazra/github-readme-stats)
 
 ### ![](https://komarev.com/ghpvc/?username=veltzer)
