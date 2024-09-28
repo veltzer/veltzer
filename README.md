@@ -14,6 +14,7 @@ Various profiles of mine
 * [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
 * [nitrotype](https://www.nitrotype.com/racer/veltzer)
 * [coursera](https://www.coursera.org/learner/mark-veltzer)
+* [chess.com](https://www.chess.com/member/mark_veltzer)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
