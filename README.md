@@ -13,6 +13,7 @@ Various profiles of mine
     * [keybr mark.veltzer@protonmail.com](https://www.keybr.com/profile/5508u71)
 * [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
 * [nitrotype](https://www.nitrotype.com/racer/veltzer)
+* [coursera](https://www.coursera.org/learner/mark-veltzer)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
