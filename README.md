@@ -15,6 +15,7 @@ Various profiles of mine
 * [nitrotype](https://www.nitrotype.com/racer/veltzer)
 * [coursera](https://www.coursera.org/learner/mark-veltzer)
 * [chess.com](https://www.chess.com/member/mark_veltzer)
+* [projecteulor](https://projecteuler.net/profile/veltzer.png)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
