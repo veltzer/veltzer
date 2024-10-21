@@ -16,6 +16,7 @@ Various profiles of mine
 * [coursera](https://www.coursera.org/learner/mark-veltzer)
 * [chess.com](https://www.chess.com/member/mark_veltzer)
 * [projecteulor](https://projecteuler.net/profile/veltzer.png)
+* [vocabulary](https://www.vocabulary.com/profiles/A1UMEJ6T7U94SH)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
