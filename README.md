@@ -3,20 +3,27 @@
 In order to contact me use [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
 
 Various profiles of mine
-* [duolingo](https://www.duolingo.com/profile/mark.veltzer)
-* [udemy](https://www.udemy.com/user/mark-veltzer)
+
+typing
+* [ratatype](https://www.ratatype.com/u4784203)
+* [nitrotype](https://www.nitrotype.com/racer/veltzer)
 * [keybr](https://www.keybr.com)
     * [keybr mark.veltzer+keybr@gmail.com](https://www.keybr.com/profile/t1z6z7j)
     * [keybr mark.veltzer@gmail.com](https://www.keybr.com/profile/01l958g)
     * [keybr veltzer@gnu.org](https://www.keybr.com/profile/m4dnhap)
     * [keybr mark2776@yahoo.com](https://www.keybr.com/profile/65vu5dy)
     * [keybr mark.veltzer@protonmail.com](https://www.keybr.com/profile/5508u71)
-* [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
-* [nitrotype](https://www.nitrotype.com/racer/veltzer)
+
+learning
+* [duolingo](https://www.duolingo.com/profile/mark.veltzer)
+* [udemy](https://www.udemy.com/user/mark-veltzer)
 * [coursera](https://www.coursera.org/learner/mark-veltzer)
-* [chess.com](https://www.chess.com/member/mark_veltzer)
 * [projecteulor](https://projecteuler.net/profile/veltzer.png)
+* [chess.com](https://www.chess.com/member/mark_veltzer)
 * [vocabulary](https://www.vocabulary.com/profiles/A1UMEJ6T7U94SH)
+
+stuff I want to read
+* [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
