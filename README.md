@@ -22,8 +22,9 @@ learning
 * [chess.com](https://www.chess.com/member/mark_veltzer)
 * [vocabulary](https://www.vocabulary.com/profiles/A1UMEJ6T7U94SH)
 
-stuff I want to read
+trove sites
 * [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
+* [imdb](https://www.imdb.com/user/ur0872999)
 
 Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
