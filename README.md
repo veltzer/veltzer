@@ -29,6 +29,7 @@ Sites that I use that do not have proflies
 * [brilliant](https://brilliant.org)
 * [audible](https://www.audible.com)
 * [beato hear training](https://app.beatoeartraining.com)
+* [nebula](https://nebula.tv)
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=veltzer)](https://github.com/anuraghazra/github-readme-stats)
 
