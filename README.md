@@ -11,6 +11,7 @@ learning
 * [projecteulor](https://projecteuler.net/profile/veltzer.png)
 * [chess.com](https://www.chess.com/member/mark_veltzer)
 * [vocabulary](https://www.vocabulary.com/profiles/A1UMEJ6T7U94SH)
+* [cloudskillboost](https://www.cloudskillsboost.google/public_profiles/f09c6060-43be-4c27-a6f1-375758e8e329)
 
 learning that I use that do not have proflies
 * [brilliant](https://brilliant.org)
