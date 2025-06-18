@@ -22,6 +22,7 @@ learning that I use that do not have proflies
 * [beato hear training](https://app.beatoeartraining.com)
 * [nebula](https://nebula.tv)
 * [thegreatcoursesplus](https://www.thegreatcoursesplus.com)
+* [kindle](https://read.amazon.com)
 
 touch typing
 * [ratatype](https://www.ratatype.com/u4784203)
