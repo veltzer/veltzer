@@ -4,6 +4,8 @@ In order to contact me use [![gitter](https://badges.gitter.im/Join%20Chat.svg)]
 
 Various profiles of mine
 
+* [main profile](https://veltzer.github.io)
+
 learning sites with profiles
 * [duolingo](https://www.duolingo.com/profile/mark.veltzer)
 * [udemy](https://www.udemy.com/user/mark-veltzer)
