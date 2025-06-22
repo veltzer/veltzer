@@ -38,6 +38,8 @@ trove sites with profiles
 * [goodreads](https://www.goodreads.com/user/show/34371877-mark-veltzer)
 * [imdb](https://www.imdb.com/user/ur0872999)
 
+It seems like I'm one of the leading github commiters from Israel -> [here](https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/israel.md)
+
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=veltzer)](https://github.com/anuraghazra/github-readme-stats)
 
 [//1]: <> (The next link is number of views of my profile)
