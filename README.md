@@ -15,6 +15,7 @@ learning sites with profiles
 * [vocabulary](https://www.vocabulary.com/profiles/A1UMEJ6T7U94SH)
 * [cloudskillboost](https://www.cloudskillsboost.google/public_profiles/f09c6060-43be-4c27-a6f1-375758e8e329)
 * [youtube](https://www.youtube.com/@MarkVeltzer)
+* [ted](https://www.ted.com/profiles/234536)
 
 learning that I use that do not have proflies
 * [brilliant](https://brilliant.org)
