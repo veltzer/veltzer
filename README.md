@@ -6,6 +6,11 @@ Various profiles of mine
 
 * [main profile](https://veltzer.github.io)
 
+Development sites
+* [github](https://github.com/veltzer)
+* [Crates.io](https://crates.io/users/veltzer)
+* [pypi.org](https://pypi.org/user/veltzer)
+
 learning sites with profiles
 * [duolingo](https://www.duolingo.com/profile/mark.veltzer)
 * [udemy](https://www.udemy.com/user/mark-veltzer)
