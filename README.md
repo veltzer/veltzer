@@ -8,7 +8,7 @@ Various profiles of mine
 
 Development sites
 * [github](https://github.com/veltzer)
-* [Crates.io](https://crates.io/users/veltzer)
+* [crates.io](https://crates.io/users/veltzer)
 * [pypi.org](https://pypi.org/user/veltzer)
 
 learning sites with profiles
