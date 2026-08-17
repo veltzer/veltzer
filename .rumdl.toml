@@ -1,0 +1,23 @@
+# Markdown lint config for the profile README.
+#
+# Only two rules are off, and neither is a style preference.
+
+[global]
+# README.md.in is the template, not markdown in its own right: it contains the
+# bare "{{ profiles }}" placeholder, which the rules read as a stray paragraph.
+# The rendered README.md is linted instead, which is the file people see.
+exclude = [
+    "README.md.in",
+]
+
+disable = [
+    # First line should be a top-level heading. README.md opens with the
+    # "this file is generated" banner comment, and the page's own title is the
+    # H3 that GitHub renders under the profile photo. An H1 here would render as
+    # an oversized duplicate of the profile name.
+    "MD041",
+    # Line length. The profile links are single-line markdown wrapping long
+    # URLs -- the cloudskillsboost one is a 100-character UUID path. They cannot
+    # be wrapped without breaking the link, and they are generated anyway.
+    "MD013",
+]
