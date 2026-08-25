@@ -2,13 +2,19 @@
 #
 # There is exactly one artifact here: README.md, which GitHub renders onto the
 # profile page straight from this repo's default branch. It is generated from
-# ../data/yaml/profiles.yaml and committed, because a push is the publish --
-# there is no deploy step that could regenerate it.
+# README.md.in plus ../data/yaml/profiles.yaml and committed, because a push is
+# the publish -- there is no deploy step that could regenerate it.
 #
-# The sibling ../data repository is therefore a build input. It is not a
-# submodule and is not fetched by anything here, so `rsconstruct build` fails
-# with a clear message when it is absent rather than silently producing a README
-# with no links.
+# That generation is deliberately NOT part of the build. The sibling ../data
+# repository is private and is not checked out in CI, so making it a build
+# input meant every CI run failed on a file it could never fetch. Instead
+# scripts/update_from_data.py refreshes the checkout and regenerates README.md,
+# run by hand after editing profiles.yaml -- the same arrangement the shared
+# YAML already has in ../veltzer.github.io, whose scripts/gen_profiles.py is
+# manual for exactly this reason.
+#
+# The build therefore only lints: the python under scripts/ and the generated
+# README.md itself, so a broken link list is still caught here.
 
 [dependencies]
 pip = [
@@ -23,22 +29,6 @@ pip = [
   "ruff",
   "mypy",
 ]
-
-# README.md is generated from README.md.in plus ../data/yaml/profiles.yaml.
-#
-# `explicit` rather than a src_dirs sweep: one input lives outside this
-# repository and the output is a tracked file in the root, neither of which a
-# directory-based processor can express. Naming both means rsconstruct rebuilds
-# when either input changes and skips when neither has.
-#
-# The hand-written prose is in README.md.in, not in README.md behind markers,
-# because rsconstruct deletes a declared output_file before regenerating it --
-# which for a part-hand-written file would delete the hand-written half. Keeping
-# README.md 100% generated is what makes that deletion safe.
-[processor.explicit]
-command = "scripts/gen_readme.py"
-inputs = ["README.md.in", "../data/yaml/profiles.yaml"]
-output_files = ["README.md"]
 
 [processor.ruff]
 src_dirs = ["scripts"]
