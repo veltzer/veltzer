@@ -16,20 +16,6 @@
 # The build therefore only lints: the python under scripts/ and the generated
 # README.md itself, so a broken link list is still caught here.
 
-[dependencies]
-pip = [
-  # gen_readme.py parses the YAML source; types-PyYAML gives mypy the stubs.
-  "PyYAML",
-  "types-PyYAML",
-  # Linters, matching the veltzer.github.io setup so the same code passes in
-  # both repos. The pylint pin is load-bearing there for .pylintrc
-  # compatibility; kept identical here so a shared script cannot pass one
-  # checkout and fail the other.
-  "pylint==3.3.8",
-  "ruff",
-  "mypy",
-]
-
 [processor.ruff]
 src_dirs = ["scripts"]
 
