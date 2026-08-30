@@ -9,7 +9,7 @@ requires-python = ">=3.14"
 dependencies = [
     "PyYAML",
     "types-PyYAML",
-    "pylint==3.3.8",
+    "pylint",
     "ruff",
     "mypy",
 ]
