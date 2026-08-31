@@ -411,7 +411,6 @@ dependencies = [
     { name = "pylint" },
     { name = "pyyaml" },
     { name = "ruff" },
-    { name = "types-pyyaml" },
 ]
 
 [package.dev-dependencies]
@@ -420,6 +419,7 @@ dev = [
     { name = "pylint" },
     { name = "pytest" },
     { name = "ruff" },
+    { name = "types-pyyaml" },
 ]
 
 [package.metadata]
@@ -428,7 +428,6 @@ requires-dist = [
     { name = "pylint" },
     { name = "pyyaml" },
     { name = "ruff" },
-    { name = "types-pyyaml" },
 ]
 
 [package.metadata.requires-dev]
@@ -437,4 +436,5 @@ dev = [
     { name = "pylint" },
     { name = "pytest" },
     { name = "ruff" },
+    { name = "types-pyyaml" },
 ]
