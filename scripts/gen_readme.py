@@ -87,14 +87,14 @@ def render(data):
     lines.append("")
 
     for group in data["groups"]:
-        lines.append(f"### {group['title_en']}")
+        lines.append(f"## {group['title_en']}")
         lines.append("")
         for item in group["items"]:
             lines.append(f"* [{item['name']}]({item['url']})")
             for child in item.get("children", []):
-                # Two spaces, not four: rumdl's MD007 wants indent depth 1 at
-                # two spaces, and this file is linted like any other markdown.
-                lines.append(f"  * [{child['name']}]({child['url']})")
+                # Four spaces: the shared .rumdl.toml sets MD007 indent = 4,
+                # and this file is linted like any other markdown.
+                lines.append(f"    * [{child['name']}]({child['url']})")
         lines.append("")
 
     for extra in data.get("extras", []):
@@ -114,7 +114,7 @@ def render_extra(extra):
         badge = f"![{extra['badge_alt']}]({extra['badge_url']})"
         # The view counter is a bare badge with no link to wrap it.
         body = f"[{badge}]({extra['url']})" if "url" in extra else badge
-        return f"### {body}" if extra.get("heading") else body
+        return f"## {body}" if extra.get("heading") else body
     return f"{extra['text_en']} [{extra['link_text_en']}]({extra['url']})"
 
 
