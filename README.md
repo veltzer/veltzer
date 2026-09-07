@@ -3,7 +3,7 @@
 
 # Mark Veltzer's Github profile
 
-In order to contact me use [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
+To contact me, write to [mark.veltzer@gmail.com](mailto:mark.veltzer@gmail.com)
 
 Various profiles of mine
 

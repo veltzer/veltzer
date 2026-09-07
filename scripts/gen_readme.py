@@ -74,8 +74,7 @@ def render(data):
 
     contact = data.get("contact")
     if contact:
-        badge = f"![{contact['badge_alt']}]({contact['badge_url']})"
-        lines.append(f"{contact['text_en']} [{badge}]({contact['url']})")
+        lines.append(f"{contact['text_en']} [{contact['link_text']}]({contact['url']})")
         lines.append("")
 
     intro = data.get("intro")
