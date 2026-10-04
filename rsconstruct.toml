@@ -17,19 +17,19 @@
 # The build therefore only lints: the python under scripts/ and the generated
 # README.md itself, so a broken link list is still caught here.
 
-[processor.ruff]
+[processor.checker.ruff]
 src_dirs = ["scripts"]
 
 
-[processor.mypy]
+[processor.checker.mypy]
 src_dirs = ["scripts"]
 
 # The generated README is linted too -- it is the page people actually see, and
 # a broken link list there is as bad as a broken build.
-[processor.rumdl]
+[processor.checker.rumdl]
 src_files = ["README.md"]
 dep_inputs = [".rumdl.toml"]
 
 # lint the GitHub Actions workflow files with actionlint
-[processor.actionlint]
+[processor.checker.actionlint]
 src_dirs = [".github/workflows"]
