@@ -31,5 +31,5 @@ src_files = ["README.md"]
 dep_inputs = [".rumdl.toml"]
 
 # lint the GitHub Actions workflow files with actionlint
-[processor.checker.actionlint]
+[processor.checker.iactionlint]
 src_dirs = [".github/workflows"]
