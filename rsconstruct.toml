@@ -21,7 +21,7 @@
 src_dirs = ["scripts"]
 
 
-[processor.checker.mypy]
+[processor.checker.pyrefly]
 src_dirs = ["scripts"]
 
 # The generated README is linted too -- it is the page people actually see, and
