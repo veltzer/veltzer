@@ -28,7 +28,6 @@ src_dirs = ["scripts"]
 # a broken link list there is as bad as a broken build.
 [processor.checker.rumdl]
 src_files = ["README.md"]
-dep_inputs = [".rumdl.toml"]
 
 # lint the GitHub Actions workflow files with actionlint
 [processor.checker.iactionlint]
