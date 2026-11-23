@@ -90,10 +90,9 @@ def render(data):
         lines.append("")
         for item in group["items"]:
             lines.append(f"* [{item['name']}]({item['url']})")
-            for child in item.get("children", []):
-                # Four spaces: the shared .rumdl.toml sets MD007 indent = 4,
-                # and this file is linted like any other markdown.
-                lines.append(f"    * [{child['name']}]({child['url']})")
+            # Four spaces: the shared .rumdl.toml sets MD007 indent = 4,
+            # and this file is linted like any other markdown.
+            lines.extend(f"    * [{child['name']}]({child['url']})" for child in item.get("children", []))
         lines.append("")
 
     for extra in data.get("extras", []):
