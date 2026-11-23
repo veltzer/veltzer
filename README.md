@@ -59,6 +59,6 @@ It seems like I'm one of the leading github commiters from Israel -> [top GitHub
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=veltzer)](https://github.com/anuraghazra/github-readme-stats)
 
-[//1]: <> (The next link is number of views of my profile)
+<!-- The next link is number of views of my profile -->
 
 ## ![Profile view counter](https://komarev.com/ghpvc/?username=veltzer)
