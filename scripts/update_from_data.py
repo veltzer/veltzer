@@ -5,14 +5,14 @@ Refresh the sibling ../veltzer.github.io checkout and regenerate README.md
 from it.
 
 README.md is generated from README.md.in plus profiles.yaml, which lives in
-the site repo under data/yaml/. That generation is deliberately not part of
+the site repo under data/. That generation is deliberately not part of
 the build: the sibling repo is not checked out in CI, and README.md is
 committed. GitHub serves it straight from the default branch, so a push is the
 publish -- there is no deploy step a build could feed.
 
 Run this by hand after editing profiles.yaml in the site repo, then commit the
 resulting README.md. The same profiles.yaml also drives that site's About page
-via its own scripts/gen_profiles.py, which is manual too.
+via its own scripts/gen_profiles.py, whose output that repo's build checks.
 
 Pulls the site repo (unless --no-pull) and then runs gen_readme.py. Exits
 non-zero if the site repo is missing, if the pull fails, or if the generation
@@ -26,7 +26,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_REPO = REPO_ROOT.parent / "veltzer.github.io"
-SOURCE = DATA_REPO / "data" / "yaml" / "profiles.yaml"
+SOURCE = DATA_REPO / "data" / "profiles.yaml"
 GEN_README = REPO_ROOT / "scripts" / "gen_readme.py"
 
 

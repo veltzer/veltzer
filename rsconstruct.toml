@@ -2,7 +2,7 @@
 #
 # There is exactly one artifact here: README.md, which GitHub renders onto the
 # profile page straight from this repo's default branch. It is generated from
-# README.md.in plus ../veltzer.github.io/data/yaml/profiles.yaml and committed,
+# README.md.in plus ../veltzer.github.io/data/profiles.yaml and committed,
 # because a push is the publish -- there is no deploy step that could
 # regenerate it.
 #
