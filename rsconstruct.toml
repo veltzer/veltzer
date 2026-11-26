@@ -29,6 +29,10 @@ src_dirs = ["scripts"]
 [processor.checker.rumdl]
 src_files = ["README.md"]
 
+# lint the TOML files of the repo with taplo
+[processor.checker.taplo]
+src_files = [".ruff.toml", ".rumdl.toml", "pyproject.toml", "rsconstruct.toml"]
+
 # lint the Lua configuration with luacheck (policy: .luacheckrc)
 [processor.checker.iluacheck]
 src_dirs = ["config"]
