@@ -29,6 +29,10 @@ src_dirs = ["scripts"]
 [processor.checker.rumdl]
 src_files = ["README.md"]
 
+# lint the Lua configuration with luacheck (policy: .luacheckrc)
+[processor.checker.iluacheck]
+src_dirs = ["config"]
+
 # lint the YAML files with yamllint (policy: .yamllint.yaml)
 [processor.checker.iyamllint]
 src_dirs = [".github"]
