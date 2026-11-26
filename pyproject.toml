@@ -29,3 +29,6 @@ min-severity = "warn"
 search-path = [
     ".",
 ]
+
+[tool.pyrefly.errors]
+no-any-return = "error"
