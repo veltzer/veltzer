@@ -23,6 +23,7 @@ import argparse
 import subprocess
 import sys
 from pathlib import Path
+from subprocess import CompletedProcess
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_REPO = REPO_ROOT.parent / "veltzer.github.io"
@@ -30,21 +31,21 @@ SOURCE = DATA_REPO / "data" / "profiles.yaml"
 GEN_README = REPO_ROOT / "scripts" / "gen_readme.py"
 
 
-def die(message):
+def die(message: str):
     """Print an error to stderr and exit non-zero."""
     print(f"ERROR: {message}", file=sys.stderr)
     sys.exit(1)
 
 
-def run(args, cwd=None):
+def run(args: list[str], cwd: Path | None = None) -> CompletedProcess[bytes]:
     """Run a command, returning its CompletedProcess; die on failure."""
     result = subprocess.run(args, cwd=cwd, check=False)
     if result.returncode != 0:
-        die(f"command failed ({result.returncode}): {' '.join(str(a) for a in args)}")
+        die(f"command failed ({result.returncode}): {' '.join(args)}")
     return result
 
 
-def pull_data():
+def pull_data() -> None:
     """Fast-forward the sibling site checkout.
 
     Refuses to pull over local modifications: `git pull` would either fail
@@ -71,7 +72,7 @@ def pull_data():
     run(["git", "-C", str(DATA_REPO), "pull", "--ff-only"])
 
 
-def main():
+def main() -> None:
     """Refresh the site checkout and regenerate README.md."""
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
     parser.add_argument(

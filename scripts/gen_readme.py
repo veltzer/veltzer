@@ -24,6 +24,7 @@ other.
 
 import sys
 from pathlib import Path
+from typing import Any
 
 import yaml
 
@@ -46,7 +47,7 @@ BANNER = (
 )
 
 
-def die(message):
+def die(message: str):
     """Print an error to stderr and exit non-zero."""
     print(f"ERROR: {message}", file=sys.stderr)
     sys.exit(1)
@@ -62,7 +63,7 @@ def load_groups():
     return data
 
 
-def render(data):
+def render(data: dict[str, Any]) -> str:
     """Render the whole shared block as markdown.
 
     Contact line, intro, the link list, then the trailing extras. The site's
@@ -106,7 +107,7 @@ def render(data):
     return "\n".join(lines).rstrip("\n")
 
 
-def render_extra(extra):
+def render_extra(extra: dict[str, str]) -> str:
     """Render one trailing extra: a sentence with a link, or a linked badge."""
     if "badge_url" in extra:
         badge = f"![{extra['badge_alt']}]({extra['badge_url']})"
@@ -116,7 +117,7 @@ def render_extra(extra):
     return f"{extra['text_en']} [{extra['link_text_en']}]({extra['url']})"
 
 
-def main():
+def main() -> None:
     """Render the template with the profile links and write README.md."""
     if not TEMPLATE.is_file():
         die(f"Missing template {TEMPLATE}")
